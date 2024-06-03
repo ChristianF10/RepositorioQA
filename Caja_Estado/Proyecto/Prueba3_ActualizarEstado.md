@@ -1,9 +1,21 @@
-# Prueba3_ActualizarEstado
+# Prueba 3: Actualizar Estado
 
-**ID del Caso de Prueba**: 
-**Descripci�n**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Objetivo
+Verificar que el sistema permite actualizar el estado de un proyecto.
+
+## Entrada
+- Codigo_C: PRJ001
+- Estado actualizado: Completado
+
+## Proceso
+El usuario actualiza el estado del proyecto a "Completado".
+
+## Salida Esperada
+- Confirmación de la actualización del estado.
+
+## Resultado Obtenido
+- [X] Éxito
+- [ ] Fallo
+
+## Observaciones
+El sistema permitió actualizar el estado del proyecto correctamente.
