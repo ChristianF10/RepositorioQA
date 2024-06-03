@@ -1,9 +1,24 @@
-# Prueba1_crearProyecto
+# Prueba 1: Crear Proyecto V谩lido
 
-**ID del Caso de Prueba**: 
-**Descripci髇**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Objetivo
+Verificar que el sistema permite la creaci贸n de un nuevo proyecto con los detalles correctos.
+
+## Entrada
+- Codigo_C: PRJ001
+- Rut_Us: 12345678-9
+- Fecha_Inicio: 01/01/2024
+- Fecha_Termino: 31/12/2024
+
+## Proceso
+El usuario ingresa los detalles del proyecto en el formulario de creaci贸n de proyectos y env铆a el formulario.
+
+## Salida Esperada
+- Confirmaci贸n de creaci贸n exitosa del proyecto.
+- Visualizaci贸n del nuevo proyecto en el dashboard del Gerente de Proyecto con los detalles proporcionados.
+
+## Resultado Obtenido
+- [X] 脡xito
+- [ ] Fallo
+
+## Observaciones
+El proyecto se cre贸 correctamente y es visible en el dashboard.
