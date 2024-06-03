@@ -1,106 +1,77 @@
-# Repositorio de Resultados de Pruebas de Software
+# Repositorio_ACS
 
-Este repositorio está diseñado para almacenar los resultados de las pruebas realizadas en el proyecto de análisis de resultados de pruebas de software. Proporciona una estructura organizada para diferentes tipos de pruebas y documentos relacionados, permitiendo un seguimiento efectivo y detallado de las pruebas.
-
-## Objetivo del Proyecto
-
-El objetivo de este proyecto es asegurar la calidad y confiabilidad del sistema de gestión de proyectos y contratos a través de pruebas exhaustivas. Se incluyen pruebas de caja negra, caja de estado y caja clara, así como informes detallados de los resultados y un perfil de uso del sistema.
+Este repositorio contiene todos los documentos y resultados de las pruebas realizadas para el proyecto de Gestión de Contratos. La estructura del repositorio está organizada en diferentes directorios para facilitar la navegación y el acceso a la información.
 
 ## Estructura del Repositorio
 
-La estructura del repositorio se divide en varias carpetas, cada una dedicada a un tipo específico de prueba o documento.
-
-### Caja_Negra
-
-Contiene las pruebas de caja negra, las cuales se centran en la funcionalidad externa del sistema sin considerar la estructura interna del código. Cada subcarpeta representa un caso de uso específico y contiene los casos de prueba correspondientes.
-
 
 ```
-Caja_Negra/
-├── Crear_Proyecto/
-│ ├── Prueba1_CrearProyecto_Valido.md
-│ ├── Prueba2_CrearProyecto_SinFechaTermino.md
-│ ├── Prueba3_CrearProyecto_CodigoDuplicado.md
-├── Supervisar_Proyecto/
-│ ├── Prueba1_SupervisarProyecto_Valido.md
-│ ├── Prueba2_SupervisarProyecto_FechaIncorrecta.md
-│ ├── Prueba3_SupervisarProyecto_Inexistente.md
-├── Generar_Informes_Progreso/
-│ ├── Prueba1_Informe_Proyecto_Valido.md
-│ ├── Prueba2_Informe_Sin_Seleccionar_Proyecto.md
-│ ├── Prueba3_Informe_Rango_Fechas_Invalido.md
-├── Registrar_Cliente/
-│ ├── Prueba1_Registrar_Cliente_Valido.md
-│ ├── Prueba2_Registrar_Cliente_Sin_Direccion.md
-│ ├── Prueba3_Registrar_Cliente_Rut_Duplicado.md
-├── Actualizar_Cliente/
-│ ├── Prueba1_Actualizar_Cliente_Valido.md
-│ ├── Prueba2_Actualizar_Cliente_Datos_Invalidos.md
-│ ├── Prueba3_Actualizar_Cliente_Inexistente.md
-├── Visualizar_Comisiones/
-│ ├── Prueba1_Visualizar_Comisiones_Periodo_Valido.md
-│ ├── Prueba2_Visualizar_Comisiones_Sin_Periodo.md
-│ ├── Prueba3_Visualizar_Comisiones_Sin_Comisiones.md
-├── Consultar_Estado_Proyecto/
-│ ├── Prueba1_Consultar_Proyecto_Existente.md
-│ ├── Prueba2_Consultar_Proyecto_Inexistente.md
-│ ├── Prueba3_Consultar_Proyecto_Sin_Permisos.md
+Repositorio_ACS/
+├── README.md
+├── Caja_Negra/
+│ ├── Crear_Proyecto/
+│ │ ├── Prueba1_CrearProyecto_Valido.md
+│ │ ├── Prueba2_CrearProyecto_SinFechaTermino.md
+│ │ ├── Prueba3_CrearProyecto_CodigoDuplicado.md
+│ ├── Supervisar_Proyecto/
+│ │ ├── Prueba1_SupervisarProyecto_Valido.md
+│ │ ├── Prueba2_SupervisarProyecto_FechaIncorrecta.md
+│ │ ├── Prueba3_SupervisarProyecto_Inexistente.md
+│ ├── Generar_Informes_Progreso/
+│ │ ├── Prueba1_InformeProyecto_Valido.md
+│ │ ├── Prueba2_Informe_SinSeleccionar_Proyecto.md
+│ │ ├── Prueba3_Informe_Rango_Fechas_Invalido.md
+│ ├── Registrar_Cliente/
+│ │ ├── Prueba1_Registrar_Cliente_Valido.md
+│ │ ├── Prueba2_Registrar_Cliente_Sin_Direccion.md
+│ │ ├── Prueba3_Registrar_Cliente_Rut_Duplicado.md
+│ ├── Actualizar_Cliente/
+│ │ ├── Prueba1_Actualizar_Cliente_Valido.md
+│ │ ├── Prueba2_Actualizar_Cliente_Datos_Invalidos.md
+│ │ ├── Prueba3_Actualizar_Cliente_Inexistente.md
+│ ├── Visualizar_Comisiones/
+│ │ ├── Prueba1_Visualizar_Comisiones_Periodo_Valido.md
+│ │ ├── Prueba2_Visualizar_Comisiones_Sin_Periodo.md
+│ │ ├── Prueba3_Visualizar_Comisiones_Sin_Comisiones.md
+│ ├── Consultar_Estado_Proyecto/
+│ │ ├── Prueba1_Consultar_Proyecto_Existente.md
+│ │ ├── Prueba2_Consultar_Proyecto_Inexistente.md
+│ │ ├── Prueba3_Consultar_Proyecto_Sin_Permisos.md
+├── Caja_Estado/
+│ ├── Proyecto/
+│ │ ├── Prueba1_EstadoInicial.md
+│ │ ├── Prueba2_CambioEstado.md
+│ │ ├── Prueba3_ActualizarEstado.md
+├── Caja_Clara/
+│ ├── Proyecto/
+│ │ ├── Prueba1_crearProyecto.md
+│ │ ├── Prueba2_actualizarProyecto.md
+│ │ ├── Prueba3_eliminarProyecto.md
+├── Informes/
+│ ├── Informe_Pruebas_Caja_Negra.md
+│ ├── Informe_Pruebas_Caja_Estado.md
+│ ├── Informe_Pruebas_Caja_Clara.md
+│ ├── Informe_Consolidado_Pruebas.md
+├── Documentos_Pruebas/
+│ ├── Planilla_Caso_Pruebas_Estandar.xlsx
+│ ├── Planilla_Caso_Pruebas.xlsx
+│ ├── Planilla_Registros_Detectos.xlsx
+├── Perfil_de_Uso.md
 
 ```
 
-### Caja_Estado
+## Descripción de Directorios
 
-Incluye pruebas de caja de estado que verifican el comportamiento del sistema en función de sus estados. Cada prueba valida transiciones y estados específicos del sistema.
+- **Caja_Negra**: Contiene los casos de prueba realizados bajo la metodología de caja negra.
+- **Caja_Estado**: Contiene los casos de prueba realizados bajo la metodología de caja estado.
+- **Caja_Clara**: Contiene los casos de prueba realizados bajo la metodología de caja clara.
+- **Informes**: Contiene los informes detallados de las pruebas realizadas y un informe consolidado.
+- **Documentos_Pruebas**: Contiene las planillas de pruebas en formato Excel.
+- **Perfil_de_Uso.md**: Documento que describe el perfil de uso del sistema basado en los escenarios de uso definidos.
 
-```
-Caja_Estado/
-└── Proyecto/
-├── Prueba1_EstadoInicial.md
-├── Prueba2_CambioEstado.md
-├── Prueba3_ActualizarEstado.md
-```
+## Cómo Usar Este Repositorio
 
-### Caja_Clara
-
-Contiene pruebas de caja clara que se alinean con el diseño procedimental y de programación estructurada del sistema. Estas pruebas verifican la correcta ejecución de funciones y procedimientos detallados.
-
-```
-Caja_Clara/
-└── Proyecto/
-├── Prueba1_crearProyecto.md
-├── Prueba2_actualizarProyecto.md
-├── Prueba3_eliminarProyecto.md
-```
-
-### Informes
-
-Esta carpeta almacena los informes generados a partir de las pruebas realizadas. Incluye informes específicos para cada tipo de prueba y un informe consolidado que resume todos los resultados.
-
-```
-Informes/
-├── Informe_Pruebas_Caja_Negra.md
-├── Informe_Pruebas_Caja_Estado.md
-├── Informe_Pruebas_Caja_Clara.md
-└── Informe_Consolidado_Pruebas.md
-```
-
-
-### Perfil_de_Uso.md
-
-Este archivo documenta el perfil de uso del sistema, asignando probabilidades a diferentes escenarios de uso basados en la frecuencia esperada de cada escenario en el uso real del sistema.
-
-## Cómo Utilizar el Repositorio
-
-1. **Ejecutar Pruebas:** Siga los casos de prueba detallados en las carpetas de Caja_Negra, Caja_Estado y Caja_Clara para realizar las pruebas correspondientes.
-2. **Registrar Resultados:** Documente los resultados de cada prueba en los archivos `.md` correspondientes.
-3. **Generar Informes:** Compile los resultados en los informes ubicados en la carpeta Informes.
-4. **Actualizar Perfil de Uso:** Mantenga actualizado el archivo Perfil_de_Uso.md para reflejar los cambios y las nuevas pruebas añadidas.
-
-## Contribuciones
-
-Las contribuciones al repositorio son bienvenidas. Por favor, siga las directrices de contribución y asegúrese de documentar claramente cualquier nueva prueba o informe añadido.
-
----
-
-Este repositorio es una herramienta fundamental para garantizar la calidad y la confiabilidad del sistema de gestión de proyectos y contratos, facilitando una gestión efectiva de las pruebas y sus resultados.
-
+1. **Navegar por los directorios**: Cada directorio está organizado por tipo de prueba y funcionalidad. Selecciona el directorio que corresponde a la prueba que deseas revisar.
+2. **Revisar los documentos de prueba**: Cada archivo Markdown (.md) contiene los detalles de las pruebas realizadas, incluyendo objetivos, entradas, procesos, salidas esperadas, resultados obtenidos y observaciones.
+3. **Consultar los informes**: Los informes detallan los resultados de las pruebas realizadas y proporcionan una visión general del estado del proyecto.
+4. **Acceder a las planillas de pruebas**: Las planillas de pruebas en formato Excel están disponibles en el directorio `Documentos_Pruebas/` y pueden ser utilizadas para análisis y seguimiento de las pruebas y defectos.
