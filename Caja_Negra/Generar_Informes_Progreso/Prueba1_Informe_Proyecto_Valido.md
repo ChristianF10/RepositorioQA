@@ -1,9 +1,21 @@
-# Prueba1_Informe_Proyecto_Valido
+# Prueba 1: Generar Informe de Progreso para Proyecto V谩lido
 
-**ID del Caso de Prueba**: 
-**Descripci髇**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Objetivo
+Verificar que el sistema permite la generaci贸n de un informe de progreso de un proyecto v谩lido.
+
+## Entrada
+- Codigo_C: PRJ001
+- Rango de fechas: 01/01/2024 - 31/12/2024
+
+## Proceso
+El usuario selecciona el proyecto y un rango de fechas para generar un informe de progreso.
+
+## Salida Esperada
+- Generaci贸n de un informe detallado en formato PDF o Excel con los detalles del proyecto.
+
+## Resultado Obtenido
+- [X] 脡xito
+- [ ] Fallo
+
+## Observaciones
+El sistema gener贸 y visualiz贸 correctamente el informe.
