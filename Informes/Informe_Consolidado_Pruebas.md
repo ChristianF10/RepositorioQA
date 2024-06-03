@@ -1,9 +1,21 @@
-# Informe_Consolidado_Pruebas
+# Informe Consolidado de Pruebas
 
-**ID del Caso de Prueba**: 
-**Descripci髇**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Resumen
+Este informe consolida los resultados de las pruebas de caja negra, caja estado y caja clara realizadas para el proyecto de gesti贸n de contratos.
+
+## Pruebas Realizadas
+
+### Caja Negra
+1. [Informe de Pruebas de Caja Negra](Informe_Pruebas_Caja_Negra.md)
+
+### Caja Estado
+1. [Informe de Pruebas de Caja Estado](Informe_Pruebas_Caja_Estado.md)
+
+### Caja Clara
+1. [Informe de Pruebas de Caja Clara](Informe_Pruebas_Caja_Clara.md)
+
+## Resultados
+Todas las pruebas fueron realizadas con 茅xito, y se documentaron los casos de 茅xito y fallo en los respectivos archivos.
+
+## Conclusi贸n
+El sistema ha pasado todas las pruebas previstas, y se considera apto para su implementaci贸n en producci贸n, sujeto a la resoluci贸n de los defectos documentados en el registro de defectos.
