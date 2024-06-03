@@ -55,7 +55,7 @@ Repositorio_ACS/
 ├── Documentos_Pruebas/
 │ ├── Planilla_Caso_Pruebas_Estandar.xlsx
 │ ├── Planilla_Caso_Pruebas.xlsx
-│ ├── Planilla_Registros_Detectos.xlsx
+│ ├── Planilla_Registros_Defectos.xlsx
 ├── Perfil_de_Uso.md
 
 ```
