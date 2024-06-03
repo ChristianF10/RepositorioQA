@@ -1,9 +1,23 @@
-# Prueba3_Actualizar_Cliente_Inexistente
+# Prueba 3: Actualizar Cliente Inexistente
 
-**ID del Caso de Prueba**: 
-**Descripci髇**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Objetivo
+Verificar que el sistema no permite la actualizaci贸n de datos de un cliente inexistente.
+
+## Entrada
+- Rut_Us: 99999999-9
+- Nuevos datos del cliente:
+  - Nombre_Us: Juan P茅rez Actualizado
+  - Direccion_Us: Calle Verdadera 456
+
+## Proceso
+El usuario intenta seleccionar un cliente inexistente.
+
+## Salida Esperada
+- Error indicando que el cliente no se encontr贸.
+
+## Resultado Obtenido
+- [X] 脡xito
+- [ ] Fallo
+
+## Observaciones
+El sistema mostr贸 un error indicando que el cliente no se encontr贸.
