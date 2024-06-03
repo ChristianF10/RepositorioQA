@@ -1,9 +1,21 @@
-# Prueba2_SupervisarProyecto_FechaIncorrecta
+# Prueba 2: Supervisar Proyecto con Fecha Incorrecta
 
-**ID del Caso de Prueba**: 
-**Descripci髇**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Objetivo
+Verificar que el sistema permite la actualizaci贸n del estado de un proyecto con una fecha incorrecta.
+
+## Entrada
+- Codigo_C: PRJ001
+- Fecha_Real_Termino: 30/11/2024
+
+## Proceso
+El usuario selecciona el proyecto y actualiza el estado.
+
+## Salida Esperada
+- Confirmaci贸n de actualizaci贸n, estado actualizado visible en el dashboard.
+
+## Resultado Obtenido
+- [X] 脡xito
+- [ ] Fallo
+
+## Observaciones
+El sistema permiti贸 la actualizaci贸n y mostr贸 el estado actualizado correctamente.
