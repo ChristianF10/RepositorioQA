@@ -1,9 +1,20 @@
-# Prueba2_Informe_Sin_Seleccionar_Proyecto
+# Prueba 2: Generar Informe sin Seleccionar Proyecto
 
-**ID del Caso de Prueba**: 
-**Descripci�n**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Objetivo
+Verificar que el sistema no permite la generación de un informe sin seleccionar un proyecto.
+
+## Entrada
+- Ninguna
+
+## Proceso
+El usuario intenta generar un informe sin seleccionar un proyecto.
+
+## Salida Esperada
+- Error indicando que se debe seleccionar un proyecto.
+
+## Resultado Obtenido
+- [X] Éxito
+- [ ] Fallo
+
+## Observaciones
+El sistema mostró un error indicando que se debe seleccionar un proyecto.
