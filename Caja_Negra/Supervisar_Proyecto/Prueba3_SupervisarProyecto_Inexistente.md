@@ -1,9 +1,20 @@
-# Prueba3_SupervisarProyecto_Inexistente
+# Prueba 3: Supervisar Proyecto Inexistente
 
-**ID del Caso de Prueba**: 
-**Descripci髇**: 
-**Entradas**: 
-**Proceso**: 
-**Salida Esperada**: 
-**Resultado**: 
-**Observaciones**: 
+## Objetivo
+Verificar que el sistema no permite la supervisi贸n de un proyecto inexistente.
+
+## Entrada
+- Codigo_C: PRJ999
+
+## Proceso
+El usuario intenta seleccionar un proyecto inexistente.
+
+## Salida Esperada
+- Error indicando que el proyecto no se encontr贸.
+
+## Resultado Obtenido
+- [X] 脡xito
+- [ ] Fallo
+
+## Observaciones
+El sistema mostr贸 un error indicando que el proyecto no se encontr贸.
