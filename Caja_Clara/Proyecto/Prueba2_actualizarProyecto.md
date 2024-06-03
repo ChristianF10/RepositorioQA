@@ -1,22 +1,21 @@
-# Prueba 2: Crear Proyecto Sin Fecha de Término
+# Prueba 2: Actualizar Proyecto
 
 ## Objetivo
-Verificar que el sistema no permite la creación de un proyecto sin Fecha_Termino.
+Verificar que el sistema permite actualizar un proyecto existente.
 
 ## Entrada
-- Codigo_C: PRJ002
-- Rut_Us: 12345678-9
-- Fecha_Inicio: 01/01/2024
+- Codigo_C: PRJ001
+- Fecha_Termino: 30/11/2024
 
 ## Proceso
-El usuario ingresa los detalles del proyecto sin Fecha_Termino y envía el formulario.
+El usuario actualiza la fecha de término del proyecto.
 
 ## Salida Esperada
-- Error indicando que Fecha_Termino es obligatorio.
+- Confirmación de actualización exitosa del proyecto.
 
 ## Resultado Obtenido
 - [X] Éxito
 - [ ] Fallo
 
 ## Observaciones
-El sistema mostró un error indicando que Fecha_Termino es obligatorio.
+El sistema permitió actualizar el proyecto correctamente.
